@@ -8,7 +8,7 @@ function getOrders(_max,_offset,callback){
         url:'https://marketplace-decathlon-eu.mirakl.net/api/orders?max=' + _max + '&offset=' + _offset,
         headers: {
             'Content-Type':'application/json',
-            'Authorization':'8db2f98b-bba9-4969-a7da-0f15b2555b57'
+            'Authorization':''
         }
     }
     request.get(options, function (error, response, body) {
